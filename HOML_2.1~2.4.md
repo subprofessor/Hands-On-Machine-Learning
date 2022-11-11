@@ -551,7 +551,7 @@ plt.show()
 
 
     
-![png](2_1_2_4_files/2_1_2_4_17_0.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_17_0.png)
     
 
 
@@ -1034,7 +1034,7 @@ housing["median_income"].hist()
 
 
     
-![png](2_1_2_4_files/2_1_2_4_33_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_33_1.png)
     
 
 
@@ -1060,7 +1060,7 @@ housing["income_cat"].hist()   #적절히 분류된 소득 카테고리의 히�
 
 
     
-![png](2_1_2_4_files/2_1_2_4_36_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_36_1.png)
     
 
 
@@ -1104,7 +1104,7 @@ housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
 
 
     
-![png](2_1_2_4_files/2_1_2_4_42_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_42_1.png)
     
 
 
@@ -1129,7 +1129,7 @@ housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.4,
 
 
     
-![png](2_1_2_4_files/2_1_2_4_44_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_44_1.png)
     
 
 * 사실 colorbar=True 속성이 없어도 차이는 없습니다. False일 경우 우측에 colorbar가 사라집니다.
@@ -1522,7 +1522,7 @@ scatter_matrix(housing[attributes], figsize=(12,12))   #figsize=(가로, 세로)
 
 
     
-![png](2_1_2_4_files/2_1_2_4_57_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_57_1.png)
     
 
 
@@ -1542,7 +1542,7 @@ housing.plot(kind="scatter", x="median_income",y="median_house_value",alpha=0.1)
 
 
     
-![png](2_1_2_4_files/2_1_2_4_59_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_59_1.png)
     
 
 
