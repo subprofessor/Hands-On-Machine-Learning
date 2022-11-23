@@ -1086,8 +1086,6 @@ DataFrame.plot(args, kwargs) 형으로 사용하며 자세한 내용은 아래 �
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html
 
 
-
-
 본문에서는 alpha 값을 사용하여 투명도를 조절하기도 하였습니다.
 
 
@@ -1104,7 +1102,7 @@ housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
 
 
     
-![png](HOML_2.1~2.4_files/HOML_2.1~2.4_42_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_41_1.png)
     
 
 
@@ -1129,7 +1127,7 @@ housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.4,
 
 
     
-![png](HOML_2.1~2.4_files/HOML_2.1~2.4_44_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_43_1.png)
     
 
 * 사실 colorbar=True 속성이 없어도 차이는 없습니다. False일 경우 우측에 colorbar가 사라집니다.
@@ -1147,11 +1145,6 @@ print("join(): ")+os.path.join("/A/B", file.py")
 실행결과 : /A/B/file.py
 <br/><br/>
 https://www.geeksforgeeks.org/python-os-path-join-method/
-
-
-```python
-
-```
 
 
 ```python
@@ -1522,7 +1515,7 @@ scatter_matrix(housing[attributes], figsize=(12,12))   #figsize=(가로, 세로)
 
 
     
-![png](HOML_2.1~2.4_files/HOML_2.1~2.4_57_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_55_1.png)
     
 
 
@@ -1542,7 +1535,7 @@ housing.plot(kind="scatter", x="median_income",y="median_house_value",alpha=0.1)
 
 
     
-![png](HOML_2.1~2.4_files/HOML_2.1~2.4_59_1.png)
+![png](HOML_2.1~2.4_files/HOML_2.1~2.4_57_1.png)
     
 
 
@@ -1552,15 +1545,3 @@ housing.plot(kind="scatter", x="median_income",y="median_house_value",alpha=0.1)
 
 * 앞서 본 가격 제한 값이 &#36;500,000에서 수평선으로 잘 보이지만 그래프의 형태를 망가뜨린다. <br/>
 * 이러한 수평선은 &#36;280,000, &#36;350,000, &#36;450,000 근처에도 있는데 학습 측면에서는 그리 좋은 데이터가 아니므로 해당 구역을 제거하는 것이 좋다.
-
-
-```python
-
-```
-
-
-
-
-```python
-
-```
